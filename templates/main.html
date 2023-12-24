@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/search-style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/open-modal-button-style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/actions-button-style.css') }}">
+
+    <title>XML Data</title>
+</head>
+<body>
+    <h1>Cornell Note</h1>
+
+    <div class="container">
+        <!-- Elegant search bar -->
+        <div class="search-container">
+            <form method="get" action="/showall">
+                <button id="showAllButton" type="submit"><strong>Show All</strong></button>
+            </form>
+
+            <form method="post" action="/search">
+                <input type="text" name="search_term" id="searchInput" placeholder="Search...">
+                <button id="searchButton" type="submit"><strong>Search</strong></button>
+            </form>
+        </div>
+        <br>
+    </div>
+
+        <!-- DataTable -->
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Content</th>
+                    <th>Keyword</th>
+                    <th>Summary</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in data %}
+                <tr>
+                    <td>{{ item.title }}</td>
+                    <td>{{ item.content }}</td>
+                    <td>{{ item.keyword }}</td>
+                    <td>{{ item.summary }}</td>
+                    <td>
+                        <div class="actions-container">
+                        <form method="post" action="/edit/{{ loop.index }}">
+                            <a href="/edit/{{ loop.index }}" id="editdata" name="edit_button"><strong>Edit</strong></a>
+                        </form>
+                        <br>
+                        <form method="post"  action="/delete/{{ loop.index0 }}">
+                            <button type="submit" id="deletedata"><strong>Delete</strong></button>
+                        </form>
+                    </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Add a button to open the "modal" (server-side rendering) -->
+        <form method="get" action="/openmodal">
+            <button id="openModal" type="submit"><strong>Add Data</strong></button>
+        </form>
+
+
+</body>
+</html>

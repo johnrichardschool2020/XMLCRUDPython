@@ -1,0 +1,66 @@
+/* Styles for the search container in the table header */
+.search-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*SHOW ALL BUTTON*/
+/* Style for the search button */
+#showAllButton {
+    display: relative;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color:  #00FFFF;
+    border: solid 2px #ccc;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s;
+}
+
+/* Style for the search button on hover */
+#showAllButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: solid 2px #00FFFF;
+}
+
+
+/* Style for the search input in the table header */
+#searchInput {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 600px;
+    max-width: 80%;
+    font-size: 16px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+/* Style for the search button */
+#searchButton {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color:  #2196F3;
+    border: solid 2px #ccc;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s;
+}
+
+/* Style for the search button on hover */
+#searchButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: solid 2px #2196F3;
+}

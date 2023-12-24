@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cornellnote>
+        <information>
+            <title>Introduction to Python</title>
+            <content>Python is a widely used general-purpose, high level programming language. It was created by Guido van Rossum in 1991 and further developed by the Python Software Foundation. It was designed with an emphasis on code readability, and its syntax allows programmers to express their concepts in fewer lines of code.</content>
+            <keyword>Python, Python2, Python3, Guido van Rossum, 1991</keyword>
+            <summary>Python is a programming language that lets you work quickly and integrate systems more efficiently.</summary>
+        </information>
+        <information>
+            <title>Introduction to C</title>
+            <content>C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell Laboratories of ATT Labs. It was mainly developed as a system programming language to write the UNIX operating system.</content>
+            <keyword>C, Dennis Ritchie, 1972, Bell Laboratories of ATT Labs </keyword>
+            <summary>The main features of the C language include: General Purpose and Portable, Low-level Memory Access, Fast Speed, Clean Syntax</summary>
+        </information>
+        <information>
+            <title>Introduction to C++</title>
+            <content>C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language. C++ is a middle-level language rendering it the advantage of programming low-level (drivers, kernels) and even higher-level applications (games, GUI, desktop apps etc.). The basic syntax and code structure of both C and C++ are the same. </content>
+            <keyword>C++, Drivers, Kernels, Games, GUI, Desktop Apps</keyword>
+            <summary>C++ is a powerful and versatile programming language that is widely used for a range of applications and is well-suited for both low-level system programming and high-level application development</summary>
+        </information>
+        <information>
+            <title>Introduction to C#</title>
+            <content>C# is the most common programming language used to develop multiple applications in the.NET framework, and it was introduced by Microsoft in 2000. It was designed to be a simple, object-oriented programming language that can be used to create a wide range of applications and software. It features a clear syntax, an object-oriented nature, and platform independence, which makes it simpler for developers to organise their code and makes it more legible and manageable. It is platform-independent in the sense that it may be used to create programmes that operate on different platforms such as Windows, macOS, Linux, and mobile devices. This makes C# a versatile language.</content>
+            <keyword>C#, Net.Framework, Microsoft, 2000, Windows, macOS, Linux, mobile devices</keyword>
+            <summary>C# is a popular and simple-to-learn programming language with a large community and plain syntax. C# is an object-oriented programming language that makes code more structured, reusable, and interoperable with other languages. C# is a versatile programming language that can be used to create a broad variety of applications, including games, apps, websites, and advanced technologies such as AI and machine learning.</summary>
+        </information>
+        <information>
+            <title>Introduction to Java</title>
+            <content>JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995 and later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.</content>
+            <keyword>Java, James Gosling, Sun Microsystems Inc, 1995, Oracle Corporation</keyword>
+            <summary>Java is the name of an island in Indonesia where the first coffee(named java coffee) was produced. And this name was chosen by James Gosling while having coffee near his office. Note that Java is just a name, not an acronym.</summary>
+        </information>
+        <information>
+            <title>Eggs</title>
+            <content>There are so many ways to prepare eggs that it's hard not to love them. Eggs are nutrient-dense, which means that they provide a high level of vitamins and minerals relative to the calories they contain. Eggs are an excellent source of protein and choline, and they also contain several B vitamins, along with vitamins A and D. Whether you boil, scramble, fry, or bake your eggs, they are handy and healthful (and won't raise your blood cholesterol levels, as was once feared).</content>
+            <keyword>small egg (38 grams): 4.79 grams of protein, medium egg (44 grams): 5.54 grams of protein, large egg (50 grams): 6.3 grams of protein, extra large egg (56 grams): 7.06 grams of protein, jumbo egg (63 grams): 7.94 grams of protein</keyword>
+            <summary>Health Benefits : Strong muscles, Brain health, Energy production, A healthy immune system, Lower risk of heart disease, A healthy pregnancy, Eye health, Weight loss and maintenance, Skin health</summary>
+        </information>
+        <information>
+            <title>Chicken Breast</title>
+            <content>The chicken breast is a lean cut of meat taken from the pectoral muscle on the underside of the chicken. Each whole chicken contains one chicken breast with two halves, which are typically separated during the butchering process and sold as individual breasts. Given its desirable white meat and health benefits, boneless chicken breast meat is the most expensive cut of chicken in comparison to chicken thighs, wings, and drumsticks.</content>
+            <keyword>cooked chicken breast (100 grams): 31 grams of protein. </keyword>
+            <summary>Heath Benefits: Builds and Maintains Muscle Mass, Strengthens Bones, Reduces Appetite, Boosts Serotonin and Melatonin</summary>
+        </information>
+        <information>
+            <title>Ground Beef 85% Lean</title>
+            <content>Ground beef is a convenient way to include protein in your diet and contains essential vitamins and minerals. It is the primary ingredient in many favorite foods, from hamburgers to meatballs. But ground beef can be high in calories and saturated fat, and a high intake of red meat can come with health risks. The key to including it in your diet is moderation and managing portion size.</content>
+            <keyword>cooked ground beef (85 grams): 24 grams of protein</keyword>
+            <summary>Health Benefits: Helps Build Cells, Boosts Immune System, Supports Hormone Production, Replenishes Iron Stores</summary>
+        </information>
+        <information>
+            <title>Tuna</title>
+            <content>Concerns about the mercury levels in fish have many people unsure about eating tuna. Although mercury should be a consideration for certain populations, tuna also has several health-promoting nutrients that are worth including in your meal plan, and it can be beneficial as a snack after a workout. Read on to learn more about the nutritional costs and benefits of tuna and how to incorporate it as part of a healthy lifestyle.</content>
+            <keyword>Tuna (100 grams): 23-42 grams of protein</keyword>
+            <summary>Health Benefits: Helps Prevent Anemia, Promotes Heart Health, May Reduce Risk of Dementia, Counters Age-Related Muscle Loss (Sarcopenia), Supports Blood Sugar Control </summary>
+        </information>
+        <information>
+            <title>Pumpkin Seeds</title>
+            <content>Pumpkin seeds are a satisfying, calorie-dense snack with several vitamins and minerals to offer. You don't need a large portion for a healthy dose of nutrients, including magnesium, zinc, and protein. This small but mighty seed also offers plenty of benefits, including protection against cancers, improved sleep, boosts heart health, eases menopausal symptoms, and helps with digestion. Swap out empty-calorie snacks for pumpkin seeds, or a protein bar containing them, to give your body the nutrition it needs for optimal functioning.</content>
+            <keyword>Pumpkin seeds (100 grams): 32.2 grams of protein.</keyword>
+            <summary>Health Benefits: Supports Cell Growth and Repair, Promotes Good Sleep, Relieves Prostate Symptoms, Enhances Immune Function</summary>
+        </information>
+        <information>
+            <title>Mysteries of the Deep Ocean</title>
+			<content>National Geographic's latest article explores the mysteries of the deep ocean. It delves into the incredible biodiversity of the underwater world and the challenges of deep-sea exploration.</content>
+			<keyword>Ocean Biodiversity</keyword>
+			<summary>This National Geographic article takes you on a journey to the depths of the ocean, where you'll encounter amazing creatures and learn about the challenges faced by researchers.</summary>
+        </information>
+        <information>
+            <title>Amazon Rainforest</title>
+            <content>Explore the wonders of the Amazon rainforest with National Geographic. This article covers the rich biodiversity, indigenous cultures, and conservation efforts in the region.</content>
+			<keyword>Indigenous Cultures and Coservation.</keyword>
+			<summary> Join National Geographic on a journey through the Amazon rainforest, where you'll discover the beauty of nature and the importance of preserving this unique ecosystem.</summary>
+        </information>
+        <information>
+            <title>Expedition to Antarctica</title>
+            <content>National Geographic's photography expedition to Antarctica captures the stunning landscapes and wildlife of the frozen continent. This article showcases the breathtaking images.</content>
+            <keyword>Photography of Environment</keyword>
+            <summary>Embark on a visual adventure to Antarctica with National Geographic's photographers. Witness the icy beauty and the resilience of life in one of the harshest environments on Earth.</summary>
+        </information>
+        <information>
+            <title>Latest discoveries about our Universe</title>
+            <content>National Geographic's space exploration feature covers the latest discoveries about our universe. From distant galaxies to black holes, this article unveils the mysteries of space.</content>
+            <keyword>Space Exploration and Astronomy</keyword>
+            <summary>Join National Geographic in exploring the vast cosmos. This article provides insights into the wonders of the universe and the cutting-edge research in space science. </summary>
+        </information>
+        <information>
+            <title>Culture of Ancient Civilizations</title>
+            <content>Dive into the history and culture of ancient civilizations with National Geographic's archaeological expedition. This article uncovers the secrets of the past.</content>
+            <keyword>Archaeology and Cultural History</keyword>
+            <summary>National Geographic's archaeological journey takes you on a quest to unravel the mysteries of ancient civilizations. Explore their art, architecture, and traditions.</summary>
+        </information>
+</cornellnote>

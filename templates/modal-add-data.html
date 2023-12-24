@@ -1,0 +1,34 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/modal-add-data-style.css') }}">
+    <title>Input Form</title>
+</head>
+<body>
+    
+    <form id="inputForm" method="POST" action="/submit">
+        <h1 id="adddatatitle">CREATE DATA</h1>
+        <label>TITLE: </label>
+        <textarea rows="4" cols="30" id="title" name="title" placeholder="Title"></textarea>
+        <br>
+        <label>KEYWORD: </label>
+        <textarea rows="4" cols="30" id="keyword" name="keyword" placeholder="Keyword"></textarea>
+        <br>
+        <label>SUMMARY: </label>
+        <textarea rows="4" cols="30" id="summary" name="summary" placeholder="Summary"></textarea>
+        <br>
+        <label>CONTENT: </label>
+        <textarea rows="4" cols="30" id="content" name="content" placeholder="Content"></textarea>
+        <br>
+        <br>
+        <form method="get" action="/submit">
+            <button id="addButton"><strong>Add</strong></button>
+        <form>
+        <form method="get" action="/cancel">
+            <a href='/' id="cancelButton"><strong>Cancel</strong></a>
+        </form>
+    </form>
+
+</body>
+
